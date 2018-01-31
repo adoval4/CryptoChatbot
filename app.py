@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+This is a flask server that work as a webhook for answering 
+requests from dialogflow.com conserning cryptocurrency prices in portuguese.
+"""
 
 from flask import Flask, render_template
 from flask_assistant import Assistant, ask, tell
