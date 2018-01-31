@@ -14,6 +14,7 @@ assist = Assistant(app, '/')
 
 COINMARKET_API_URL = "https://api.coinmarketcap.com/v1/ticker/"
 
+# AVAILABLE_COINS indicates the current available coins for which we can provide information 
 AVAILABLE_COINS = (
 	"bitcoin",
 	"ethereum",
