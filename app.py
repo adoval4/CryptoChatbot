@@ -48,8 +48,8 @@ def home():
 	return render_template('index.html')
 
 
-# INTENT: price_of_coin 
-# Will receive a coin name and should retrive the price
+# INTENT: hello 
+# Will greet the user and tell what we can do
 @assist.action('hello')
 def hello_intent():
 	speech = "Oi! Eu sou o CryptoBot e posso lhe dar o preço atual das seguintes moedas: "
